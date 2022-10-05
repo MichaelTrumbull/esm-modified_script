@@ -2,7 +2,9 @@
 This is because Alphabet.get_batch_converter() fails if passed an argument
 I don't know why. Previous installs of this worked perfectly fine.
 **error thrown:** 
+
 dataset, collate_fn=alphabet.get_batch_converter(args.truncation_seq_length), batch_sampler=batches
+
 TypeError: Alphabet.get_batch_converter() takes 1 positional argument but 2 were given
 
 # Evolutionary Scale Modeling
